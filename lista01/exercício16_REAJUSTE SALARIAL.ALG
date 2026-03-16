@@ -3,7 +3,7 @@ Algoritmo "Reajuste salarial"
 Var
    sal,nvsal:real
 Inicio
-      escrevaL("Escreva o sal·rio do funcion·rio: ")
+      escrevaL("Escreva o sal√°rio do funcion√°rio: ")
       leia(sal)
       se (sal<=300) entao
          nvsal<- 1.5*sal
