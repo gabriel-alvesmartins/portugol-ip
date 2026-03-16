@@ -1,4 +1,4 @@
-Algoritmo "conversãoTemperatura"
+Algoritmo "conversÃ£oTemperatura"
 
 Var
    tempF: vetor[1..10] de real
@@ -6,15 +6,15 @@ Var
    n,i: inteiro
 
 Inicio
-      escreval("Quantas temperaturas você quer converter de Farenheit para Celcius? ")
+      escreval("Quantas temperaturas vocÃª quer converter de Farenheit para Celcius? ")
       leia(n)
       para i de 1 ate n faca
-           escreva("Qual o valor da", i, "ª temperatura? ")
+           escreva("Qual o valor da", i, "Âª temperatura? ")
            leia(tempF[i])
            tempC[i] <- 5*(tempF[i]-32)/9
       fimpara
       para i de 1 ate n faca
-      escreval (tempF[i], "º FAHRENHEIT EQUIVALE A", tempC[i], "º CELSIUS")
+      escreval (tempF[i], "Âº FAHRENHEIT EQUIVALE A", tempC[i], "Âº CELSIUS")
       fimpara
            
 
