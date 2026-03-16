@@ -1,4 +1,4 @@
-Algoritmo "Somatório simples"
+Algoritmo "SomatÃ³rio simples"
 
 Var
    n,i:inteiro
