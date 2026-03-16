@@ -1,6 +1,6 @@
 Algoritmo 
 Var
-   
+   n1,n2,n3:inteiro
 Inicio
       escreval("Digite 3 números inteiros: ")
       leia(n1,n2,n3)
