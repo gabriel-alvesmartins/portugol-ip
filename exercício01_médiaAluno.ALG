@@ -1,4 +1,4 @@
-Algoritmo "médiaAluno"
+Algoritmo "mÃ©diaAluno"
 Var
    n1,n2,n3,media: real
 Inicio
@@ -6,10 +6,10 @@ Inicio
       leia(n1, n2, n3)
       media <- (n1+n2+n3)/3
       se (media>=6) entao
-         escrevaL("Média = ", media)
+         escrevaL("MÃ©dia = ", media)
          escrevaL("APROVADO")
       senao
-           escrevaL("Média = ", media)
+           escrevaL("MÃ©dia = ", media)
            escrevaL("REPROVADO")
       fimse
 Fimalgoritmo
