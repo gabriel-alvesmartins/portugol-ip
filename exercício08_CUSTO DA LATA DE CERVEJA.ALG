@@ -9,5 +9,5 @@ Inicio
       leia(r,h)
       areaT <- 2*3.14159*r^2 + 2*3.14159*r*h
       custo <- areaT*100
-      escreval("O VALOR DO CUSTO É: ", custo:1:2)
+      escreval("O VALOR DO CUSTO Ã‰: ", custo:1:2)
 Fimalgoritmo
