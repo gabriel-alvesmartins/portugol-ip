@@ -3,7 +3,7 @@ Algoritmo "algarismos"
 Var
 n1,n2,n3,concN:inteiro
 Inicio
-      escrevaL("Digite os 3 algorismos do número desejado, separados por ENTER: ")
+      escrevaL("Digite os 3 algorismos do nÃºmero desejado, separados por ENTER: ")
       leia(n1,n2,n3)
       se (n1>=10) ou (n2>=10) ou (n3>=10) entao
          escrevaL ("DIGITO INVALIDO")
@@ -20,7 +20,7 @@ Inicio
                     fimse
                fimse
          fimse
-      escrevaL ("O seu número é: ", concN)
-      escreva ("O seu número ao quadrado é: ", concN^2)
+      escrevaL ("O seu nÃºmero Ã©: ", concN)
+      escreva ("O seu nÃºmero ao quadrado Ã©: ", concN^2)
       fimse
 Fimalgoritmo
