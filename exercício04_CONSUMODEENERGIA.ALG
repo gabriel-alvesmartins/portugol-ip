@@ -5,11 +5,11 @@ salario,energia,custo,porKw,desconto:real
 
 
 Inicio
-      escreva("Qual o valor do sal·rio mÌnimo? ")
+      escreva("Qual o valor do sal√°rio m√≠nimo? ")
       leia (salario)
-      escreva ("Quanto que È gasto de energia na sua casa(em kW)? ")
+      escreva ("Quanto que √© gasto de energia na sua casa(em kW)? ")
       leia (energia)
-      // a cada 1kW, È gasto 0.7% do sal·rio mÌnimo
+      // a cada 1kW, √© gasto 0.7% do sal√°rio m√≠nimo
       custo <- energia*0.007*salario
       porKw <- custo/energia
       desconto <- custo*0.9
