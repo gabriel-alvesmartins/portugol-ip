@@ -1,4 +1,4 @@
-Algoritmo "Série de pares"
+Algoritmo "SÃ©rie de pares"
 
 Var
    n,q,i: inteiro
@@ -6,7 +6,7 @@ Var
 
 
 Inicio
-      escrevaL("Digite um número PAR e em sequência a QUANTIDADE de números que pares que o sucedam: ")
+      escrevaL("Digite um nÃºmero PAR e em sequÃªncia a QUANTIDADE de nÃºmeros que pares que o sucedam: ")
       leia(n,q)
       se (n%2=0) entao
          para i de 0 ate (q*2)-2 faca
@@ -16,7 +16,7 @@ Inicio
               fimse
          fimpara
       senao
-          escreva("O PRIMEIRO NÚMERO NÃO É PAR")
+          escreva("O PRIMEIRO NÃšMERO NÃƒO Ã‰ PAR")
       fimse
 
 
