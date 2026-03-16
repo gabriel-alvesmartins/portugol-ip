@@ -1,4 +1,4 @@
-Algoritmo 
+Algoritmo "mercadoria"
 Var
   preco,pdesc,vmerc,desc: real
 
