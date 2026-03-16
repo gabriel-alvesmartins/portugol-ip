@@ -1,4 +1,4 @@
-Algoritmo 
+Algoritmo "maior"
 Var
    n1,n2,n3:inteiro
 Inicio
