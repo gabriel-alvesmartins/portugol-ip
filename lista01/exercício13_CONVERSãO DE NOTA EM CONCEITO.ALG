@@ -1,4 +1,4 @@
-Algoritmo "Convers„o de Nota em Conceito"
+Algoritmo "Convers√£o de Nota em Conceito"
 
 Var
    n: real
