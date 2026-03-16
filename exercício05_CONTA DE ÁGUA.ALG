@@ -1,12 +1,12 @@
-Algoritmo "Conta de ¡gua"
+Algoritmo "Conta de √Ågua"
 
 Var
    conta,consumo,valor: real
    tipo_cons: caractere
 
 Inicio
-      escreval("Qual È o n˙mero da sua conta? ")
-      escreval("Qual o valor do seu consumo de ·gua (em m≥)? ")
+      escreval("Qual √© o n√∫mero da sua conta? ")
+      escreval("Qual o valor do seu consumo de √°gua (em m¬≥)? ")
       escreval("Qual o seu tipo de consumidor? RESIDENCIAL (R), COMERCIAL (C) ou INDUSTRIAL (I) ")
       leia(conta, consumo, tipo_cons)
       se (tipo_cons = "R") entao
