@@ -1,4 +1,4 @@
-Algoritmo "arrecadaçãoDeJogos"
+Algoritmo "arrecadaÃ§Ã£oDeJogos"
 
 
 Var
@@ -8,7 +8,7 @@ Var
 
 
 Inicio
-      escreva("Quantos jogos você quer analisar? ")
+      escreva("Quantos jogos vocÃª quer analisar? ")
       leia(nj)
       para i de 1 ate nj faca
            escrevaL("Responda os seguintes questionamentos, digitando linha por linha e pressionando enter para cada resposta" )
@@ -21,6 +21,6 @@ Inicio
            arrecadacao[i] <- ((total*pop/100)*1 + (total*ge/100)*5 + (total*arq/100)*10 + (total*cad/100)*20)
       fimpara
       para i de 1 ate nj faca
-      escrevaL("A RENDA DO JOGO Nº", i," É", arrecadacao[i])
+      escrevaL("A RENDA DO JOGO NÂº", i," Ã‰", arrecadacao[i])
       fimpara
 Fimalgoritmo
