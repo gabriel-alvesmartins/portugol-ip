@@ -9,7 +9,7 @@ func main() {
 	for i := 0; i < len(n); i++ {
 		fmt.Scan(&n[i])
 	}
-	for j := 9; j == 0; j-- {
+	for j := 9; j >= 0; j-- {
 		fmt.Print(n[j], " ")
 	}
 }
