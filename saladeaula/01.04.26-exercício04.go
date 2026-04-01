@@ -5,7 +5,7 @@ import f "fmt"
 func fatorial(a int) int {
 	var r int
 	r = 1
-	for i := a; i > 0; i-- {
+	for i := a; i > 1; i-- {
 		r = i * r
 	}
 	return r
