@@ -7,11 +7,9 @@ func maior(a, b, c int) int {
 
 	if b > a && b > c {
 		maior = b
-	}
-	if c > a && c > b {
+	} else if c > a && c > b {
 		maior = c
-	}
-	if a > c && a > b {
+	} else {
 		maior = a
 	}
 
