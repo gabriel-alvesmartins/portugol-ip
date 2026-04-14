@@ -7,12 +7,7 @@ import (
 
 func buscabinaria(v []int, x int) int {
 	e := 0
-	var d int = 0
-	if len(v)%2 == 0 {
-		d = len(v) - 1
-	} else {
-		d = len(v)
-	}
+	d:= len(v)- 1
 	for e <= d {
 		m := (e + d) / 2
 		if v[m] == x {
