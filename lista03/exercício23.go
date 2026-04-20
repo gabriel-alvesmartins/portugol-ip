@@ -13,7 +13,7 @@ func main() {
 	for i := 1.0; i <= float64(n); i++ {
 		soma += sinal * (numerador / i)
 		numerador -= 3.0
-		sinal *= -1.0 // Alterna o sinal
+		sinal *= -1.0 
 	}
 	fmt.Printf("O resultado é: %.2f\n", soma)
 }
