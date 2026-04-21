@@ -2,26 +2,19 @@ package main
 
 import "fmt"
 
+func decimalParaBinario(n int) {
+	
+	if n/2 > 0 {
+		decimalParaBinario(n / 2)
+	}
+	
+	
+	fmt.Print(n % 2)
+}
+
 func main() {
-	var n int
-
-	fmt.Println("Digite o valor de n")
-	fmt.Scan(&n)
-
-	if n == 0 {
-		fmt.Println(0)
-		return
-	}
-
-	bin := []int{}
-
-	for n > 0 {
-		resto := n % 2
-		bin = append(bin, resto)
-		n = n / 2
-	}
-
-	for i := len(bin) - 1; i >= 0; i-- {
-		fmt.Print(bin[i])
-	}
+	numero := 10
+	fmt.Printf("O número %d em binário é: ", numero)
+	decimalParaBinario(numero)
+	fmt.Println() 
 }
