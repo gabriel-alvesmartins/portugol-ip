@@ -1,0 +1,17 @@
+.env
+# Binários
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+projetosaude
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
